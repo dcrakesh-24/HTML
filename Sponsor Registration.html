@@ -1,5 +1,6 @@
 <html>
     <head>
+        <link rel="stylesheet" href="CSS/style.css" type="text/css">
         <title>
             Sponsor Registration
         </title>
@@ -7,41 +8,65 @@
     <body>
         <h1>Sponsor Registration</h1><hr>
         <form>
-            <label>Prefix</label>
+            <div>
+            <label for="prefix">Prefix</label>
+            <input type="text" name="prefix" id="prefix" placeholder="prefix name" minlength="10" maxlength="15"/><br><br>
+        </div>
+        <div><label for="Name">Name</label>
+            <input type="text" name="Name" id="Name"/><br><br>
+        </div>
+        <div><label>Preferred Pronouns</label>
             <input type="text"/><br><br>
-            <label>Name</label>
-            <input type="text"/><br><br>
+        </div>
+        <div>
             <label>Preferred Pronouns</label>
             <input type="text"/><br><br>
-            <label>Email</label>
+        </div>
+        <div><label>Email</label>
             <input type="email"/><br><br>
-            <label>Work Phone</label>
+        </div>    
+        <div><label>Work Phone</label>
             <input type="number"/><br><br>
+        </div>    
+        <div>
             <label>Cell Phone</label>
             <input type="number"/><br><br>
-            <label>Job Title</label>
+        </div>    
+        <div> <label>Job Title</label>
             <input type="text"/><br><br>
-            <label>Company</label>
+        </div>    
+        <div> <label>Company</label>
             <input type="text"/><br><br>
+        </div>   
+        <div>
             <label>Full Business Address</label><br>
             <textarea cols="25" rows="1"></textarea><br><br>
-            <label>Company Website</label><br>
+        </div>   
+        <div><label>Company Website</label><br>
             <textarea cols="25" rows="1"></textarea><br><br>
-            <label>Company Description</label><br>
+        </div>   
+        <div><label>Company Description</label><br>
             <textarea cols="40" rows="4"></textarea><br><br>
-            <label>Comapany Facebook Page</label><br>
+        </div>    
+        <div><label>Comapany Facebook Page</label><br>
             <textarea cols="40" rows="2"></textarea><br><br>
+        </div>    
+        <div>
             <label>Company Twitter Handle</label><br>
             <textarea cols="40" rows="2"></textarea><br><br>
-            <label>Company LinkedIn Handle</label><br>
+        </div>    
+        <div><label>Company LinkedIn Handle</label><br>
             <textarea cols="40" rows="2"></textarea><br><br>
+        </div>    
+        <div>
             <label>Sponsorship Level</label><br>
-            <input type="radio"/>GOld <br>
+            <input id="id1"type="radio"/>GOld <br>
             <input type="radio"/>Diamond<br>
             <input type="radio"/>Platinum<br><br>
-            <label>Additional Guests(name,email)</label><br>
+        </div>    
+        <div> <label>Additional Guests(name,email)</label><br>
             <textarea cols="40" rows="2"></textarea><br><br>
-
+        </div>    
         </form>
     </body>
 </html>
